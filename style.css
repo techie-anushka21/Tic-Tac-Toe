@@ -1,0 +1,99 @@
+/* Styling */
+
+/*Body Properties */
+body{
+    background-color: #44E5E7;
+    text-align: center;
+}
+
+/*Title Properties */
+#title{
+    color: green;
+}
+
+/*Properties of Night Mode Button*/
+#nightMode{
+    height: 50px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Game description */
+#description{
+    color: deeppink;
+}
+
+/* Score Text Properties */
+#score{
+    color: blue;
+}
+
+/* Score Table Properties */
+table{
+    font-weight: bold;
+    margin: auto;
+    margin-top: -20px;
+}
+
+/* Score Table Data Properties */
+td{
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Score Table Row Properties */
+tr{
+    margin-top: 5px;
+}
+
+/* Game Box Properties */
+#gameBox{
+    display:grid;
+    grid-template-columns: repeat(3,110px);
+    grid-gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Individual Box Properties */
+.box{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color:aliceblue;
+    border-color: blue;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* Winning Message Properties*/
+#winMessage{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Winning Message Properties*/
+#resetButton{
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px; 
+}

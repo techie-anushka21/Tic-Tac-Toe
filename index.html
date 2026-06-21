@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <!--Game Title-->
+    <h1 id="title">Tic Tac Toe</h1>
+
+    <!--Night mode button-->
+    <button id="nightMode">Night Mode: OFF</button>
+
+    <!--A small message for players-->
+    <h2 id="description">Play with your friends & see who wins!🔥</h2>
+
+    <!--Score Card-->
+    <h1 id="score">Score:</h1>
+
+    <!--Table to record the winning statistics-->
+    <table>
+        <tr id="team_name">
+            <td id="X_score">❌</td>
+            <td id="O_score">⭕</td>
+        </tr>
+        <tr id="scores">
+            <td id="scoreX"></td>
+            <td id="scoreO"></td>
+        </tr>
+    </table>
+
+    <!--Adding buttons for the Game grid-->
+    <div id="gameBox">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+
+    <!--Winning message-->
+    <div id="winMessage"></div>
+
+    <!--Reset Button-->
+    <button id="resetButton">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
